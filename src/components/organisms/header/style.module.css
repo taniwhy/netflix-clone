@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerContainer {
+  display: flex;
+  margin: 0 56px;
+  padding: 18px 0;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .headerContainer {
+    margin: 0 30px;
+  }
+}
+
+.headerContainer a {
+  display: flex;
+}
+
+.headerLogo {
+  height: 32px;
+  width: 108px;
+  margin-right: 40px;
+}
+
+@media (min-width: 1449px) {
+  .headerLogo {
+    height: 45px;
+    width: 167px;
+  }
+}
+
+.headerButtonLink {
+  display: block;
+  background-color: #e50914;
+  width: 84px;
+  color: white;
+  border: 0;
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 8px 17px;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.headerButtonLink:hover {
+  background: #f40612;
+}
